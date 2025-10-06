@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Up Fitness Performance - La tua Palestra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="main-header">
+        <nav id="navbar">
+            <div class="container">
+                <a href="#" class="logo">LINE UP</a>
+                <!-- BUTTON per il menu mobile: usare button è best practice -->
+                <button class="menu-toggle" id="mobile-menu" aria-label="Apri menu" aria-expanded="false">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#about">Chi Siamo</a></li>
+                    <li><a href="#services">Servizi</a></li>
+                    <li><a href="#mission">La Nostra Mission</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>PERFORMANCE È UNO STATO MENTALE</h1>
+            <p>Supera i tuoi limiti. Allenati con noi.</p>
+            <a href="#contact" class="btn">ISCRIVITI ORA</a>
+        </div>
+    </header>
+
+    <section id="about" class="bg-light">
+        <div class="container content-grid">
+            <div class="about-image">
+                <img src="images/pexels-anush-1229356.jpg" alt="Allenamento in palestra">
+            </div>
+            <div class="about-text">
+                <h2>WE ARE <span class="text-primary">LINE UP</span></h2>
+                <p>Siamo più di una semplice palestra. Siamo una community di persone determinate a raggiungere la migliore versione di sé stesse. Da noi troverai attrezzature all'avanguardia, coach esperti e un ambiente che ti spingerà a dare sempre il massimo.</p>
+                <a href="#contact" class="btn-outline">Scopri i nostri corsi</a>
+            </div>
+        </div>
+    </section>
+
+<section id="mission" class="bg-dark">
+    <div class="container">
+
+        <div class="mission-desktop">
+            <div class="mission-cards">
+                <div class="card" style="background-image: url('images/pexels-823sl-2294361.jpg');">
+                    <div class="card-content">
+                        <h3>HEALTH</h3>
+                        <p>Il benessere parte da un corpo sano. Ti guidiamo in un percorso che unisce allenamento, nutrizione e mentalità vincente.</p>
+                    </div>
+                </div>
+                <div class="card active" style="background-image: url('images/pexels-anush-1229356.jpg');">
+                    <div class="card-content">
+                        <h3>WORKOUT</h3>
+                        <p>Sessioni di allenamento funzionale, bodybuilding e classi di gruppo. Programmi personalizzati per ogni obiettivo.</p>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('images/pexels-leonmart-1552242.jpg');">
+                    <div class="card-content">
+                        <h3>FUN</h3>
+                        <p>L'allenamento deve essere anche divertimento. Unisciti ai nostri eventi e classi speciali per vivere il fitness in modo nuovo.</p>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('images/pexels-pixabay-414029.jpg');">
+                    <div class="card-content">
+                        <h3>PERFORMANCE</h3>
+                        <p>Porta le tue performance al livello successivo. Prepariamo atleti e appassionati a superare ogni sfida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mission-mobile">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        HEALTH
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <img src="images/pexels-823sl-2294361.jpg" alt="Health">
+                        <p>Il benessere parte da un corpo sano. Ti guidiamo in un percorso che unisce allenamento, nutrizione e mentalità vincente.</p>
+                    </div>
+                </div>
+                <div class="accordion-item active"> <button class="accordion-header">
+                        WORKOUT
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <img src="images/pexels-anush-1229356.jpg" alt="Workout">
+                        <p>Sessioni di allenamento funzionale, bodybuilding e classi di gruppo. Programmi personalizzati per ogni obiettivo.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        FUN
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <img src="images/pexels-leonmart-1552242.jpg" alt="Fun">
+                        <p>L'allenamento deve essere anche divertimento. Unisciti ai nostri eventi e classi speciali per vivere il fitness in modo nuovo.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        PERFORMANCE
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <img src="images/pexels-pixabay-414029.jpg" alt="Performance">
+                        <p>Porta le tue performance al livello successivo. Prepariamo atleti e appassionati a superare ogni sfida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <section id="services" class="bg-light">
+        <div class="container content-grid reverse">
+             <div class="services-text">
+                <h2>I NOSTRI <span class="text-primary">SERVIZI</span></h2>
+                <p>Dalla sala pesi ai corsi di gruppo, passando per il coaching personalizzato. In Line Up trovi tutto ciò che ti serve per trasformare il tuo corpo e la tua mente.</p>
+                <ul>
+                    <li><span class="text-primary">✔</span> Personal Training One-to-One</li>
+                    <li><span class="text-primary">✔</span> Classi di Allenamento Funzionale</li>
+                    <li><span class="text-primary">✔</span> Programmazione Bodybuilding</li>
+                    <li><span class="text-primary">✔</span> Consulenza Nutrizionale</li>
+                </ul>
+            </div>
+            <div class="services-image">
+                <img src="images/pexels-823sl-2294361.jpg" alt="Atleta che si allena">
+            </div>
+        </div>
+    </section>
+
+     <section id="app-section" class="bg-dark">
+        <div class="container app-content">
+            <div class="app-text">
+                <h2>IL TUO ALLENAMENTO, <span class="text-primary">SEMPRE IN TASCA</span></h2>
+                <p>Scarica la nostra app ufficiale per prenotare le classi, monitorare i tuoi progressi e rimanere connesso con la community di Line Up. La tua scheda di allenamento, a portata di click.</p>
+                <div class="app-badges">
+                    <a href="https://apps.apple.com/it/app/line-up-fitness-performance/id6667108848" target="_blank" rel="noopener noreferrer">
+                        <img src="images/it.svg" alt="Download on the App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.shaggyowl.lineup&hl=it" target="_blank" rel="noopener noreferrer">
+                        <img src="images/Italian.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+            <div class="app-image">
+                <img src="images/unnamed.png" alt="Mockup dell'app Line Up Fitness">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-dark">
+    <div class="container content-grid">
+        <div class="contact-image">
+            <img src="images/pexels-willpicturethis-1954524.jpg" alt="Ambiente della palestra">
+        </div>
+        <div class="contact-text">
+            <h2>PRONTO A <span class="text-primary">INIZIARE?</span></h2>
+            <p>La tua trasformazione inizia oggi. Contattaci per prenotare una prova gratuita o per avere maggiori informazioni sui nostri abbonamenti.</p>
+            
+            <div class="contact-info">
+                <a href="https://www.google.com/maps/place/Viale+Virginia+Reiter,+14,+41121+Modena+MO/@44.6443844,10.9300388,17z/data=!3m1!4b1!4m6!3m5!1s0x477fef3f975befe5:0xf1521af05125f7c2!8m2!3d44.6443806!4d10.9326084!16s%2Fg%2F11c1z6vy4r?entry=ttu&g_ep=EgoyMDI1MDkyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-map-marker-alt"></i> Viale Virginia Reiter 14, Modena, Italy 41121
+                </a>
+                <a href="https://wa.me/393346337846" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Scrivici su WhatsApp
+                </a>
+                <a href="https://www.instagram.com/lineup_fitnessperformance/" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-instagram"></i> Seguici per non perdere nessuna novità
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer id="main-footer">
+        <div class="container">
+            <p>Copyright &copy; 2025 - Line Up Fitness Performance</p>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
