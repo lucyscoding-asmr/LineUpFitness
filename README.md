@@ -51,8 +51,3 @@ Questo progetto è stato creato per il mio portfolio da **Front-End Developer e 
 - **Lucia Buondonno**  
 - **Email:** lucyscodingasmr@gmail.com  
 - 🌍 [GitHub Profile](https://github.com/lucyscoding-asmr)
-
----
-
-> *“Performance è uno stato mentale.”*  
-> — LineUp Fitness
